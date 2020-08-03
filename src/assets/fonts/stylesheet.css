@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Eva';
+  src: url(EVA-Peron.woff2) format('woff2'),
+    url(EVA-Peron.woff) format('woff'),
+    url(EVA-Peron.eot) format('embedded-opentype'),
+    url(EVA-Peron.eot?#iefix) format('embedded-opentype');
+}
+
+/* @font-face {
+  font-family: 'Martin';
+  src: url(VTC-Martin-Regular.woff2) format('woff2'),
+    url(VTC-Martin-Regular.woff) format('woff'),
+    url(VTC-Martin-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Carrie';
+  src: url(VTCCarrie-Regular.woff2) format('woff2'),
+    url(VTCCarrie-Regular.woff) format('woff'),
+    url(VTCCarrie-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Marsha';
+  src: url(VTCMarsha-Bold.woff2) format('woff2'),
+    url(VTCMarsha-Bold.woff) format('woff'),
+    url(VTCMarsha-Bold.ttf) format('truetype');
+} */
+
+@font-face {
+  font-family: 'Ruben';
+  src: url(RUBEN-Regular.woff2) format('woff2'),
+    url(RUBEN-Regular.woff) format('woff'),
+    url(RUBEN-Regular.eot) format('embedded-opentype'),
+    url(RUBEN-Regular.eot?#iefix) format('embedded-opentype');
+}

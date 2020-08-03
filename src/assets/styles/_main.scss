@@ -1,0 +1,28 @@
+// assets/styles/_main.scss
+$mainFont: "Ruben";
+@import "~vue-material/dist/theme/engine"; // Import the theme engine
+
+@include md-register-theme("default", (
+  primary: #9c64a6, // The primary color of your application
+  accent: #bf1b1b, // The accent or secondary color
+  theme: dark
+));
+
+@import "~vue-material/dist/theme/all"; // Apply the theme
+
+.md-tabs-navigation .md-button-content {
+  font-size: 2.5vh;
+}
+
+.md-dialog-container {
+  border-radius: 1vw;
+}
+
+.md-card {
+  border-radius: 1vw;
+}
+
+.md-card-media {
+  border-top-left-radius: 1vw;
+  border-top-right-radius: 1vw;
+}
