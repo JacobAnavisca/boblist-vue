@@ -1,4 +1,4 @@
-# black-owned-businesses-map
+# B.O.B. List
 
 ## Project setup
 ```
