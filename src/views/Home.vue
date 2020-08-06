@@ -5,7 +5,7 @@
 
       <div class="md-layout-item md-xsmall-size-50 md-small-size-50 md-size-25">
         <md-field>
-          <md-input v-model="location" placeholder="Boston, MA"></md-input>
+          <md-input v-model="location" placeholder="Enter city and state code ex. boston, MA"></md-input>
         </md-field>
       </div>
 
@@ -131,7 +131,7 @@ export default {
       const long = latLongMatch
         ? latLongMatch[5]
         : null
-      const addressMatch = [...this.location.matchAll(/^(.+,\s|)(.+,\s)(.+)(\s\d{5,}|)$/g)][0]
+      const addressMatch = [...this.location.matchAll(/^[A-Za-z]+,[ ]?[A-Za-z]{2}$/g)][0]
 
       const searchQuery = lat && long
         ? `lat=${lat}&long=${long}`

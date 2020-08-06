@@ -2,7 +2,7 @@
   <div class="about">
     <h1>Black Owned Businesses (B.O.B.) List</h1>
     <p>The B.O.B. List was created in order to make it easier to support our local B.O.Bs</p>
-    <p>Due to the pandamec most small businesses have suffered but none more than B.O.Bs</p>
+    <p>Due to the pandemic most small businesses have suffered but none more than B.O.Bs</p>
     <p>"More than 40 percent of black business owners reported they weren’t working in April,
       when businesses were feeling the worst of the pandemic’s economic consequences.
       Only 17 percent of white small business owners said the same,

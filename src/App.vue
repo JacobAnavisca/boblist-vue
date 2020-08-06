@@ -34,7 +34,7 @@
 
             <md-list-item>
               <md-icon>info</md-icon>
-              <span class="md-list-item-text"><router-link to="/about">Info</router-link></span>
+              <span class="md-list-item-text"><router-link to="/about">About</router-link></span>
             </md-list-item>
 
           </md-list>
