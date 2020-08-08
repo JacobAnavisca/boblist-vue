@@ -1,5 +1,6 @@
 // assets/styles/_main.scss
 $mainFont: "Ruben";
+$primary: #9c64a6;
 @import "~vue-material/dist/theme/engine"; // Import the theme engine
 
 @include md-register-theme("default", (
