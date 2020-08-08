@@ -59,7 +59,12 @@
             <h3 class="md-subheading">Today's availability</h3>
             <div class="card-reservation">
               <md-icon>access_time</md-icon>
-                <md-button v-for='(hour, index) in todaysHours(business.hours)' :key='index' @click="showSelectedHours(business.hours)">{{hour}}</md-button>
+                <md-button
+                  class="md-raised"
+                  v-for='(hour, index) in todaysHours(business.hours)'
+                  :key='index'
+                  @click="showSelectedHours(business.hours)"
+                  >{{hour}}</md-button>
             </div>
           </md-card-content>
         </div>
@@ -67,7 +72,7 @@
         <div v-else>
           <md-card-content>
             <h3 class="md-subheading">No availability for today</h3>
-            <md-button @click="showSelectedHours(business.hours)">
+            <md-button class="md-raised" @click="showSelectedHours(business.hours)">
               Check other days
             </md-button>
           </md-card-content>

@@ -91,8 +91,8 @@ module.exports = {
   },
 
   devServer: {
-    host: 'bob.io',
-    port: 80,
+    host: 'boblist.resistandassist.io',
+    port: 443,
     https: true
   },
 
